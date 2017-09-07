@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AlamofireRSSParser.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>HTMLParser-HTMLParser.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>HTMLParser.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-ODA News.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Pods-ODA NewsTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Pods-ODA NewsUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>00B227DED18BA79C430A2A280823E9B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>576EB3B5147DBBFFF037F1E041AC2D67</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59A4750953F7880B29B117A50FCFA83F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D0B681E18AB941412D8A3F8CFA97454F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4EFB55A28D7DCA7D7FA499F696D5835</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F53F33E1E81559B001EBF3B7A06DC023</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

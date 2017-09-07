@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0548D7ABC1DAFB9F5E8BE972 /* Pods_ODA_NewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D623DF832DA988BEDF478824 /* Pods_ODA_NewsUITests.framework */; };
 		294629A21F606337005BB8A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294629A11F606337005BB8A9 /* AppDelegate.swift */; };
-		294629A41F606337005BB8A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294629A31F606337005BB8A9 /* ViewController.swift */; };
 		294629A71F606337005BB8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294629A51F606337005BB8A9 /* Main.storyboard */; };
 		294629A91F606337005BB8A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294629A81F606337005BB8A9 /* Assets.xcassets */; };
 		294629AC1F606337005BB8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294629AA1F606337005BB8A9 /* LaunchScreen.storyboard */; };
 		294629B71F606337005BB8A9 /* ODA_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294629B61F606337005BB8A9 /* ODA_NewsTests.swift */; };
 		294629C21F606337005BB8A9 /* ODA_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294629C11F606337005BB8A9 /* ODA_NewsUITests.swift */; };
+		294629D01F6063F2005BB8A9 /* tableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294629CF1F6063F2005BB8A9 /* tableVC.swift */; };
+		B664C92FC0382C79B482F482 /* Pods_ODA_News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B7D49054969A66A2FC01B7 /* Pods_ODA_News.framework */; };
+		F1170BA95A05E7D7C870EC55 /* Pods_ODA_NewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D77C6A8667944E002083B8 /* Pods_ODA_NewsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11D77C6A8667944E002083B8 /* Pods_ODA_NewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODA_NewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2946299E1F606337005BB8A9 /* ODA News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ODA News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		294629A11F606337005BB8A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		294629A31F606337005BB8A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		294629A61F606337005BB8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		294629A81F606337005BB8A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		294629AB1F606337005BB8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,15 @@
 		294629BD1F606337005BB8A9 /* ODA NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ODA NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		294629C11F606337005BB8A9 /* ODA_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODA_NewsUITests.swift; sourceTree = "<group>"; };
 		294629C31F606337005BB8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294629CF1F6063F2005BB8A9 /* tableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableVC.swift; sourceTree = "<group>"; };
+		71B7D49054969A66A2FC01B7 /* Pods_ODA_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODA_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7760C9698C941347F88F56D1 /* Pods-ODA NewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODA NewsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODA NewsUITests/Pods-ODA NewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7EC6653B017DBDD0E6C1FF3E /* Pods-ODA News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODA News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODA News/Pods-ODA News.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D971815853538CEC8B3DF8 /* Pods-ODA NewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODA NewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODA NewsTests/Pods-ODA NewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3E0EAC969C7A0E96F29EFB0 /* Pods-ODA News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODA News.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODA News/Pods-ODA News.release.xcconfig"; sourceTree = "<group>"; };
+		D623DF832DA988BEDF478824 /* Pods_ODA_NewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODA_NewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50E86CECBFE6E891801F77B /* Pods-ODA NewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODA NewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODA NewsUITests/Pods-ODA NewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D947C1720EB8EF27EF9004 /* Pods-ODA NewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODA NewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODA NewsTests/Pods-ODA NewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B664C92FC0382C79B482F482 /* Pods_ODA_News.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1170BA95A05E7D7C870EC55 /* Pods_ODA_NewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0548D7ABC1DAFB9F5E8BE972 /* Pods_ODA_NewsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				294629B51F606337005BB8A9 /* ODA NewsTests */,
 				294629C01F606337005BB8A9 /* ODA NewsUITests */,
 				2946299F1F606337005BB8A9 /* Products */,
+				C3B62A25F5CA6C298FF091A7 /* Pods */,
+				8CC16344BEBD790DD3E8934E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +114,8 @@
 		294629A01F606337005BB8A9 /* ODA News */ = {
 			isa = PBXGroup;
 			children = (
+				294629CF1F6063F2005BB8A9 /* tableVC.swift */,
 				294629A11F606337005BB8A9 /* AppDelegate.swift */,
-				294629A31F606337005BB8A9 /* ViewController.swift */,
 				294629A51F606337005BB8A9 /* Main.storyboard */,
 				294629A81F606337005BB8A9 /* Assets.xcassets */,
 				294629AA1F606337005BB8A9 /* LaunchScreen.storyboard */,
@@ -125,6 +142,29 @@
 			path = "ODA NewsUITests";
 			sourceTree = "<group>";
 		};
+		8CC16344BEBD790DD3E8934E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71B7D49054969A66A2FC01B7 /* Pods_ODA_News.framework */,
+				11D77C6A8667944E002083B8 /* Pods_ODA_NewsTests.framework */,
+				D623DF832DA988BEDF478824 /* Pods_ODA_NewsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B62A25F5CA6C298FF091A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EC6653B017DBDD0E6C1FF3E /* Pods-ODA News.debug.xcconfig */,
+				C3E0EAC969C7A0E96F29EFB0 /* Pods-ODA News.release.xcconfig */,
+				E9D947C1720EB8EF27EF9004 /* Pods-ODA NewsTests.debug.xcconfig */,
+				A5D971815853538CEC8B3DF8 /* Pods-ODA NewsTests.release.xcconfig */,
+				E50E86CECBFE6E891801F77B /* Pods-ODA NewsUITests.debug.xcconfig */,
+				7760C9698C941347F88F56D1 /* Pods-ODA NewsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 294629C61F606337005BB8A9 /* Build configuration list for PBXNativeTarget "ODA News" */;
 			buildPhases = (
+				E1FE7344A8ABFB6E2AF49A3C /* [CP] Check Pods Manifest.lock */,
 				2946299A1F606337005BB8A9 /* Sources */,
 				2946299B1F606337005BB8A9 /* Frameworks */,
 				2946299C1F606337005BB8A9 /* Resources */,
+				71469F881CE4F536B31BB0D7 /* [CP] Embed Pods Frameworks */,
+				F03FEA775C266410E0C67CAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 294629C91F606337005BB8A9 /* Build configuration list for PBXNativeTarget "ODA NewsTests" */;
 			buildPhases = (
+				E26BCCB9EADE535C4E279288 /* [CP] Check Pods Manifest.lock */,
 				294629AE1F606337005BB8A9 /* Sources */,
 				294629AF1F606337005BB8A9 /* Frameworks */,
 				294629B01F606337005BB8A9 /* Resources */,
+				D3E4A436123A649E98623DE5 /* [CP] Embed Pods Frameworks */,
+				9A6CFFDB28CA5F5C734EE980 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 294629CC1F606337005BB8A9 /* Build configuration list for PBXNativeTarget "ODA NewsUITests" */;
 			buildPhases = (
+				DE9FEDF77F3E7E7F5EC6BAC3 /* [CP] Check Pods Manifest.lock */,
 				294629B91F606337005BB8A9 /* Sources */,
 				294629BA1F606337005BB8A9 /* Frameworks */,
 				294629BB1F606337005BB8A9 /* Resources */,
+				3417813B3CC1FECB46A2797F /* [CP] Embed Pods Frameworks */,
+				738D0A7A1FCDBA3106D1A2F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +242,7 @@
 				TargetAttributes = {
 					2946299D1F606337005BB8A9 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 84X3AUB69L;
 						ProvisioningStyle = Automatic;
 					};
 					294629B11F606337005BB8A9 = {
@@ -254,13 +304,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3417813B3CC1FECB46A2797F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODA NewsUITests/Pods-ODA NewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71469F881CE4F536B31BB0D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODA News/Pods-ODA News-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738D0A7A1FCDBA3106D1A2F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODA NewsUITests/Pods-ODA NewsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6CFFDB28CA5F5C734EE980 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODA NewsTests/Pods-ODA NewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E4A436123A649E98623DE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODA NewsTests/Pods-ODA NewsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9FEDF77F3E7E7F5EC6BAC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1FE7344A8ABFB6E2AF49A3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E26BCCB9EADE535C4E279288 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F03FEA775C266410E0C67CAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODA News/Pods-ODA News-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2946299A1F606337005BB8A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				294629A41F606337005BB8A9 /* ViewController.swift in Sources */,
 				294629A21F606337005BB8A9 /* AppDelegate.swift in Sources */,
+				294629D01F6063F2005BB8A9 /* tableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +600,12 @@
 		};
 		294629C71F606337005BB8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EC6653B017DBDD0E6C1FF3E /* Pods-ODA News.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84X3AUB69L;
 				INFOPLIST_FILE = "ODA News/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ODA.ODA-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +615,12 @@
 		};
 		294629C81F606337005BB8A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E0EAC969C7A0E96F29EFB0 /* Pods-ODA News.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84X3AUB69L;
 				INFOPLIST_FILE = "ODA News/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ODA.ODA-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +630,7 @@
 		};
 		294629CA1F606337005BB8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D947C1720EB8EF27EF9004 /* Pods-ODA NewsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +645,7 @@
 		};
 		294629CB1F606337005BB8A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D971815853538CEC8B3DF8 /* Pods-ODA NewsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +660,7 @@
 		};
 		294629CD1F606337005BB8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50E86CECBFE6E891801F77B /* Pods-ODA NewsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "ODA NewsUITests/Info.plist";
@@ -477,6 +674,7 @@
 		};
 		294629CE1F606337005BB8A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7760C9698C941347F88F56D1 /* Pods-ODA NewsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "ODA NewsUITests/Info.plist";
